@@ -315,7 +315,7 @@
     }
     .service-item .content p {
         padding: 0 40px;
-        font-size: 13px;
+        font-size: 18px;
         line-height: 20px;
     }
     .wg-coffee-time .left img {
@@ -380,7 +380,7 @@
         display: none;
     }
     .discovery-menu-item {
-        margin-bottom: 140px;
+        margin-bottom: 80px;
     }
     .wg-reservation form .columns {
         flex-wrap: wrap;
@@ -555,6 +555,7 @@
     }
     .footer {
         padding-top: 70px !important;
+        margin-top: 40px;
     }
     .logo-footer {
         text-align: center;

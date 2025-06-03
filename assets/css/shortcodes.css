@@ -465,15 +465,11 @@ form textarea.style-2 {
 }
 
 .page-title-home .slide-2 {
-    background-image: url(../images/bg-section/bg-home-12.jpg);
+    background-image: url(../images/bg-section/banner-03.jpg);
 }
 
 .page-title-home .slide-3 {
     background-image: url(../images/bg-section/banner-04.jpg);
-}
-
-.page-title-home .slide-4 {
-    background-image: url(../images/bg-section/banner-03.jpg);
 }
 
 
@@ -983,6 +979,7 @@ form textarea.style-2 {
 
 .service-item .content .title a {
     color: #FFF;
+     font-family: "Montserrat", sans-serif !important;
 }
 
 .service-item .content .title a:hover {
@@ -2154,12 +2151,13 @@ a.mapboxgl-ctrl-logo {
 }
 
 .discovery-menu-item {
-    position: relative;
+   
     text-align: center;
      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 10px !important;
 
 }
+
 
 .discovery-menu-item .icon {
     position: absolute;
@@ -2220,18 +2218,21 @@ a.mapboxgl-ctrl-logo {
     line-height: 37px;
     text-transform: uppercase;
     margin-bottom: 17px;
+     font-family: "Montserrat", sans-serif !important;
     letter-spacing: 1.3px;
 }
 
 .discovery-menu-item p {
     padding-left: 20px;
     padding-right: 20px;
+     font-family: "Montserrat", sans-serif !important;
 }
 
 .discovery-menu-item .content>a {
     position: absolute;
     bottom: 0;
     left: 50%;
+     font-family: "Montserrat", sans-serif !important;
     transform: translate(-70%, 50%);
     width: 66px;
     height: 66px;
