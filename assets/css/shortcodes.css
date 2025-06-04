@@ -641,8 +641,8 @@ form textarea.style-2 {
     position: absolute;
     top: 67px;
     width: 403px;
-    padding: 60px 40px 50px;
-    background-color: #FFF;
+    padding: 60px 40px 15px;
+    background-color: #d8d6d6;
     border-radius: 20px;
     text-align: center;
     opacity: 0;
@@ -2686,17 +2686,19 @@ a.mapboxgl-ctrl-logo {
 .wg-contact-us .left .title {
     color: #171412;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 55px;
     margin-bottom: 17px;
-    text-transform: uppercase;
-    letter-spacing: 1.7px;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+      font-family: "Montserrat", sans-serif !important;
 }
 
 .wg-contact-us .left>p {
     color: #171412;
     margin-bottom: 41px;
     letter-spacing: 0.15px;
+    font-size: 18px;
 }
 
 .wg-contact-us form input {
@@ -2741,13 +2743,15 @@ a.mapboxgl-ctrl-logo {
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 9px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 1px;
+      font-family: "Montserrat", sans-serif !important;
 }
 
 .contact-item p a,
 .contact-item p {
-    color: #666666;
+    color: #414040;
+    font-size: 18px !important;
 }
 
 .contact-item p a:hover {
@@ -3234,8 +3238,8 @@ a.mapboxgl-ctrl-logo {
 /* ------------------------------- */
 .wg-private {
     position: relative;
-    padding-top: 125px;
-    padding-bottom: 136px;
+    padding-top: 30px;
+  
     overflow: hidden;
 }
 
