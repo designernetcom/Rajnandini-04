@@ -26,6 +26,33 @@
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon.png">
 
+    <style>
+        /* Fully center Lightbox vertically and horizontally */
+        .lb-outerContainer {
+            position: fixed !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            margin: 0 !important;
+            z-index: 9999;
+            max-width: 90vw;
+            max-height: 90vh;
+        }
+
+        .lb-container {
+            text-align: center;
+        }
+
+        .lb-dataContainer {
+            text-align: center;
+        }
+
+        .lb-image {
+            max-height: 80vh;
+            max-width: 80vw;
+        }
+    </style>
+
 
 
 </head>
@@ -179,7 +206,7 @@
             </header>
             <!-- /header -->
 
-           <!-- banner-page -->
+            <!-- banner-page -->
             <div class="banner-page gallery-page">
 
                 <div class="themesflat-container">
@@ -198,11 +225,11 @@
             <div class="wg-our-team ">
                 <div class="themesflat-container container">
                     <div class="col-12">
-                            <div class="heading-section text-center mb-66" style="margin-top: -100px;">
-                                <div class="main">Gallery</div>
-                            </div>
-
+                        <div class="heading-section text-center mb-66" style="margin-top: -100px;">
+                            <div class="main">Gallery</div>
                         </div>
+
+                    </div>
                     <div class="row g-4">
 
                         <div class="col-md-4 col-12">
@@ -254,7 +281,7 @@
                                 </a>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4 col-12">
                             <div class="our-team-item wow fadeInUp" data-wow-delay="0.2s">
                                 <a href="assets/images/avatar/gallery-08.jpg" data-lightbox="gallery">
@@ -352,7 +379,7 @@
                                 </a>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
             </div>
@@ -455,6 +482,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
     <!-- Lightbox2 JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'positionFromTop': 50  // Ensures it's vertically centered
+        })
+    </script>
 
 
 </body>
